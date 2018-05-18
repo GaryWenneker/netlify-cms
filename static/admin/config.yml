@@ -19,6 +19,17 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
 
+  - name: "Meuk"
+    label: "Meuk"
+    files:
+      - file: "src/pages/meuk/index.md"
+        label: "Meuk"
+        name: "meuk"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "meuk-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "pages"
     label: "Pages"
     files:
